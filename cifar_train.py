@@ -25,6 +25,7 @@ from utils.util import adjust_loss_alpha
 def main():
     if not torch.cuda.is_available():
         raise Exception("need gpu to train network!")
+    # add comment
 
     torch.manual_seed(0)
     torch.cuda.manual_seed_all(0)
